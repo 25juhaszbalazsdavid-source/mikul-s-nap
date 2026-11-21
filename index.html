@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okosotthonok</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+<body class="test">
+<div >
+    <header>
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <h1 class="my_header">Az Okosotthonok Világa</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#kozpontok">Központok</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bevezeto">Bevezető</a></li>
+                <li class="nav-item"><a class="nav-link" href="#eszkozok">Eszközök</a></li>
+                <li class="nav-item"><a class="nav-link" href="#protokollok">Protokollok</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <section id="bevezeto">
+            
+            <h2 class="h2">Bevezetés az okosotthonokba</h2>
+            <img src="./img/haz.jpg" alt="Okosotthon" title="Okosotthon" id="jobb-oldali-kep" class="rounded">
+            <p class="p">Az okosotthon (smart home) olyan lakókörnyezet, amelyben a különböző elektronikai és háztartási eszközök hálózatba vannak kötve, és központilag vagy távolról is vezérelhetők. Ez a technológia nem csupán a kényelmünket szolgálja, hanem jelentősen hozzájárul az energiahatékonysághoz és az otthonunk biztonságához is. A rendszerek agyát általában egy központi egység (hub) adja, amely összeköti a szenzorokat és a végrehajtó eszközöket.</p>
+            
+        </section>
+
+        <section id="eszkozok" class="mt-5">
+            <h2 class="h2">Népszerű Eszköz Típusok</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/izzok.jpg" alt="Okos izzók" class="img-fluid img-thumbnail">
+                    <h3 class="text-center">Okos világítás</h3>
+                    <p class=" text-center">Telefonról vezérelhető, színváltós LED izzók.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/kamera.jpg" alt="Okos kamera" class="img-fluid img-thumbnail">
+                    <h3 class="text-center">Okos kamera</h3>
+                    <p class=" text-center ">Távoli betekintést biztosító biztonsági rendszer.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./img/termosztat.jpg" alt="Okos termosztát" class="img-fluid img-thumbnail">
+                    <h3 class="text-center">Okos termosztát</h3>
+                    <p class=" text-center">Okos termosztát illetve Energiatakarékos fűtésvezérlés.</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="kozpontok" class="mt-5">
+            <h2 class="h2">Központi Egységek Összehasonlítása</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Protokoll típusa</th>
+                        <th>Max. adatátvitel</th>
+                        <th>Hatótáv (beltér)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Z-Wave</td><td>100 kbps</td><td>30 méter</td>
+                    </tr>
+                    <tr>
+                        <td>Zigbee</td><td>250 kbps</td><td>10-20 méter</td>
+                    </tr>
+                    <tr>
+                        <td>Thread</td><td>250 kbps</td><td>30 méter</td>
+                    </tr>
+                    </tbody>
+            </table>
+        </section>
+
+        <section id="protokollok" class="mt-5">
+            <h2 class="h2">Hálózati Protokollok</h2>
+            <ul>
+                <li class="lista-elem">
+                    <div>
+               <h3> Wi-Fi technológia</h3>
+               <p class="p"> A legelterjedtebb hálózati szabvány, amely nagy sávszélességet biztosít, de az energiafogyasztása magasabb a többi protokollnál.</p>
+            </div>
+                </li>
+                 
+            
+                <li class=" lista-elem">
+                    <div>
+                        <h3>Bluetooth Low Energy (BLE)</h3>
+                <p class="p">Kifejezetten alacsony energiaigényű eszközökhöz kifejlesztett szabvány, rövid hatótávolságú kommunikációhoz.</p>
+            </div>
+                </li>
+                <li class="lista-elem">
+                    <div>
+                <h3>Zigbee protokoll</h3>
+                <p class="p">Kifejezetten okosotthonokhoz és ipari szenzorhálózatokhoz tervezett, alacsony fogyasztású technológia.</p>
+            </div>
+                </li>
+            
+            </ul>
+           
+        </section>
+
+        <footer class="mt-5 mb-4 text-center">
+          <p>Forrás:<a href="https://www.techradar.com/news/smart-home" target="_blank"> Smart Home Guide</a></p>  
+        </footer>
+
+    </div>
+</div>
+</body>
+</html>
